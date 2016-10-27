@@ -1,0 +1,1 @@
+Insert Into  prioritys(prooritys) values('red');
