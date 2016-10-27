@@ -1,3 +1,7 @@
+/*! ref:http://qiita.com/ques0942/items/d89de1ff7c92b4810d10
+		http://logic.moo.jp/data/archives/458.html */
+
+
 select * from prioritys;
 checksum table prioritys;
 Truncate table prioritys;
