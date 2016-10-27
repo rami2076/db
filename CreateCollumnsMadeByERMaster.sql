@@ -19,7 +19,7 @@ CREATE TABLE human
 
 CREATE TABLE prioritys
 (
-	color_flag int(3) DEFAULT 0 NOT NULL,
+	color_flag int(3) DEFAULT 0 NOT NULL AUTO_INCREMENT,
 	prooritys varbinary(40),
 	PRIMARY KEY (color_flag)
 );
@@ -27,7 +27,7 @@ CREATE TABLE prioritys
 
 CREATE TABLE task
 (
-	task_id int(10) DEFAULT 3000 NOT NULL,
+	task_id int(10) DEFAULT 3000 NOT NULL AUTO_INCREMENT,
 	end date,
 	dead_line date,
 	task_name varchar(30),
